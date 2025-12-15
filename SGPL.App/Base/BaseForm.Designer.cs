@@ -324,7 +324,7 @@
             Controls.Add(tabControlRegister);
             DrawerTabControl = tabControlRegister;
             Name = "BaseForm";
-            StartPosition = FormStartPosition.CenterScreen;
+            StartPosition = FormStartPosition.CenterParent;
             Text = "BaseForm";
             tabControlRegister.ResumeLayout(false);
             tabPageRegister.ResumeLayout(false);
@@ -340,7 +340,6 @@
         #endregion
 
         private ImageList imageList1;
-        private TabPage tabPageList;
         private ReaLTaiizor.Controls.MaterialButton ButtonSave;
         private ReaLTaiizor.Controls.MaterialButton ButtonCancel;
         private Panel panel2;
